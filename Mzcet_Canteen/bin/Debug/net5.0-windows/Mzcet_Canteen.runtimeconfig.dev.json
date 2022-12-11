@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\kioql\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\kioql\\.nuget\\packages"
+    ]
+  }
+}

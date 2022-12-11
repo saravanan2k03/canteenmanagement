@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Mzcet_Canteen</id>
+    <version>1.0.0</version>
+    <authors>Mzcet_Canteen</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0">
+        <dependency id="CsvHelper" version="27.2.1" exclude="Build,Analyzers" />
+        <dependency id="Google.Apis.Sheets.v4" version="1.57.0.2657" exclude="Build,Analyzers" />
+        <dependency id="Octopus.Client" version="13.0.3807" exclude="Build,Analyzers" />
+        <dependency id="System.Data.OleDb" version="6.0.0" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.3" exclude="Build,Analyzers" />
+        <dependency id="iTextSharp" version="5.5.13.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\kioql\OneDrive\Documents\canteen_rock\canteen_rock\Mzcet_Canteen\bin\Debug\net5.0-windows\Mzcet_Canteen.runtimeconfig.json" target="lib\net5.0-windows7.0\Mzcet_Canteen.runtimeconfig.json" />
+    <file src="C:\Users\kioql\OneDrive\Documents\canteen_rock\canteen_rock\Mzcet_Canteen\bin\Debug\net5.0-windows\Mzcet_Canteen.dll" target="lib\net5.0-windows7.0\Mzcet_Canteen.dll" />
+  </files>
+</package>

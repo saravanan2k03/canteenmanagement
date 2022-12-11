@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="billing\code.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="billing\Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="billing\Reprint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="billing\token.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="billing\update_bill.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Login_Page.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New_Files\Add_Student_Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New_Files\admin_panel_one.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New_Files\Log_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New_Files\student_db.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="New_Files\update_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\add_product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\cancel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\Product_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\Product_log.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\recharge.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\Sales_data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Sales_Files\Update_Product.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
