@@ -62,12 +62,12 @@ Module Connection
 
     Public formcloss As Boolean
 
-    Public smtp_user_email As String = "canteentransactions@mountzion.ac.in"
-    Public smtp_user_passsword As String = "luetcetoxbcirsnz"
+    Public smtp_user_email As String = ""
+    Public smtp_user_passsword As String = ""
 
-    '10.201.133.133
+   
     Public dtCustomers As New DataTable
-    Public DBConnectionString As String = "Data Source=10.201.133.133;Initial Catalog=canteen;User ID=mzcanteen;Password=Checkme@987"
+    Public DBConnectionString As String = "Data Source=;Initial Catalog=canteen;User ID=mzcanteen;Password="
 
     Public Function ReadFromDatabase(ByVal SQL As String) As DataTable
         Dim dtReturn As New DataTable
